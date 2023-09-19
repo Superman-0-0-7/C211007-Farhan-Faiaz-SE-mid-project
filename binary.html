@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Binary to Decimal Converter</title>
+
+
+  <style>
+    body {
+      background-image: url('9.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      .footer-text {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      color: #ffffff;
+      font-size: 14px;
+    }
+    }
+  </style>
+</head>
+
+
+<body>
+  <div class="container mt-5">
+    <div class="card mx-auto" style="max-width: 400px;">
+      <div class="card-header bg-primary text-white">
+        <h1 class="text-center">Binary to Decimal Converter</h1>
+      </div>
+      <div class="card-body">
+        <div class="form-group">
+          <label for="binaryInput">Enter Binary:</label>
+          <input type="text" class="form-control" id="binaryInput" placeholder="Enter binary number">
+        </div>
+        <button class="btn btn-primary btn-block" onclick="convertBinaryToDecimal()">Convert</button>
+        <div id="decimalOutput" class="mt-3"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="binary.js"></script>
+
+  <div class="footer-text">
+    Created by Farhan Faiyaz
+  </div>
+</body>
+</html>
